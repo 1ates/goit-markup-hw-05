@@ -507,6 +507,7 @@ img {
 }
 
 .form-policy {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -530,6 +531,13 @@ img {
 
 .form-policy:hover svg {
   fill: #4d5ae5;
+}
+
+.form-link {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 .submit-btn {
